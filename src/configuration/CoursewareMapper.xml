@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="mapper.CoursewareMapper">
+    <!--新增课件-->
+    <insert id="insertCourseware" parameterType="entities.Courseware">
+         INSERT  INTO courseware(name,type,credit,url,status,course_id) VALUES (#{name},#{type},#{credit},#{url},#{status},#{couser_id});
+    </insert>
+    <!--  查询所有课件-->
+    <select id="selectAllCourseware" resultType="entities.Courseware">
+        SELECT * from courseware
+    </select>
+    <!--  查询所有课程-->
+    <select id="selectAllCourse" resultType="entities.Course">
+        SELECT * from course
+    </select>
+
+</mapper>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="mapper.CourseMapper">
+   <!-- 插入课程-->
+    <insert id="addCourse">
+        INSERT  INTO  course(course_name,course_code) VALUES (#{course_name},#{course_code});
+    </insert>
+    <!--修改课程-->
+    <update id="updateCourse">
+      UPDATE course SET course_name=#{course_name},course_code=#{course_code} WHERE course_id=#{course_id}
+    </update>
+    <!--删除课程-->
+    <delete id="deleteCourse">
+        DELETE from course where course_id=#{course_id}
+    </delete>
+    <!--查询所有课程-->
+    <select id="selectAllCourse" resultType="entities.Course">
+      SELECT * from course
+    </select>
+    <select id="selectCourse" resultType="entities.Course">
+        SELECT * from course WHERE course_id=#{course_id}
+    </select>
+</mapper>

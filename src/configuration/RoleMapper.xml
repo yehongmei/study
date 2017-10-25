@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="mapper.RoleMapper">
+  <!--  查询所有用户角色-->
+  <select id="selectAllRole" resultType="entities.Role">
+        SELECT r.*,u.username from role r
+      left join role_user ru on r.role_id=ru.user_id
+      left join user  u on u.user_id=ru.role_id
+  </select>
+</mapper>
