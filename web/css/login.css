@@ -1,0 +1,92 @@
+/*所有样式去掉内外边距*/
+*{
+    margin:0;
+    padding:0;
+}
+/*登录头部*/
+#all_header{
+    background-color: white;
+}
+.heater_left{
+    padding-top: 5px;
+    height: 60px;
+    width: 1100px;
+    margin: auto;
+}
+.heater_right{
+    margin-left: 835px;
+    margin-top: -50px;
+}
+#all_content{
+    background-image: url("../images/loginBackground.jpg");
+}
+.content{
+    height: 550px;
+    width: 1100px;
+    margin-left: 200px;
+}
+.content_right{
+    margin-top: 50px;
+    background-color: white;
+    height: 380px;
+    width: 400px;
+    float: right;
+    position: relative;
+    left: -50px;
+
+}
+.logo_top{
+    height: 40px;
+    border-bottom: solid 1px #F8F8F7;
+}
+.logo_top .left{
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+.logo_top .right{
+    margin-left: 230px;
+    margin-top: -20px;
+}
+.logo_top .right a{
+    color: #36AD9E;
+
+}
+.content_right .form-control{
+    height: 40px;
+    width: 300px !important;
+    margin-top: 30px;
+    display: inline-block!important;
+}
+.content_right  table{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+#result{
+    position: relative;
+    top: 10px;
+    color: red;
+    margin-left: 60px;
+}
+.content_right  button{
+    display: block;
+    width: 300px;
+    height: 45px;
+    margin-top: 20px;
+    margin-left: 50px;
+    opacity: 0.8;
+}
+#footer div{
+    display: block;
+    float: left;
+}
+#footer div>span{
+    display: inline;
+    margin-left: -20px;
+}
+#footer p{
+    padding-top: 20px;
+    font-size: 14px;
+    text-align: center;
+    color: #999999;
+}
+

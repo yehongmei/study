@@ -1,0 +1,51 @@
+
+.content_top{
+    width: 700px;
+    margin:auto;
+    position: relative;
+    left: 10px;
+}
+.content_top span{
+    margin-left: 15px;
+    font-size: 13px;
+}
+.content{
+    margin: auto;
+    height: 500px;
+    width: 800px;
+    background-color:white;
+}
+.menu_name{
+    width: 630px;
+    height: 90px;
+    padding-top: 1px;
+    margin: 20px auto auto 70px ;
+}
+.menu_name input{
+    margin-top: 20px;
+    width: 600px;
+    height: 48px;
+}
+.menu_name .validate_info{
+    display: block;
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    margin-left: 600px;
+    margin-top: -40px;
+}
+.content select{
+    width: 600px;!important;
+    height: 48px;
+    margin-left: 70px;
+}
+.froala_editor{
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.publish{
+    width: 100px;
+    margin: 10px 0 10px 680px!important;
+
+}

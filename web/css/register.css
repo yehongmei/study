@@ -1,0 +1,70 @@
+/*所有样式去掉内外边距*/
+*{
+    margin:0;
+    padding:0;
+}
+/*注册中部*/
+#all__register_content{
+    background-color: #F8F8F7;
+    padding-top: 1px;
+    height: 600px;
+}
+.register_content{
+    margin:30px auto auto auto;
+    height: 550px;
+    width: 1100px;
+    background-color: white;
+}
+.register_content .left{
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.register_content .right{
+    height: 40px;
+    font-size: 20px;
+    margin-top: -30px;
+    padding-left: 885px;
+    border-bottom: solid 1px #F8F8F7;
+}
+.register_content .right a{
+    color: #36AD9E;
+}
+.register_content .form-control{
+    height: 45px;
+    width: 350px !important;
+    margin-top: 30px;
+    display: inline-block!important;
+}
+.register_content  form{
+    margin-left: 340px;
+}
+.register_content .checkbox{
+    display: inline;
+    margin-top: 40px;
+}
+.register_content  button{
+    display: block;
+    width: 350px;
+    height: 45px;
+    margin-top: 20px;
+    opacity: 0.8;
+}
+label.error,label.tip {
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 20px;
+    padding-left: 20px;
+    color: red;
+    background: url("../images/error.png") no-repeat left center;
+}
+label.tip{
+    color: #aaa;
+    background: url("../images/help.png") no-repeat left center;
+}
+label.valid{
+    background: url("../images/correct.png") no-repeat left center;
+    width: 32px;
+}
